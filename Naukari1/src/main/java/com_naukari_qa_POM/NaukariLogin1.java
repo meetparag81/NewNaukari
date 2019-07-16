@@ -1,4 +1,4 @@
-package testnaukari;
+package com_naukari_qa_POM;
 
 import java.util.Set;
 import org.openqa.selenium.By;

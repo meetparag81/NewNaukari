@@ -1,4 +1,4 @@
-package testnaukari;
+package com_naukari_qa_POM;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -60,6 +60,16 @@ public class NaukariLogin
 		
 		driver.close();
 		//driver.findElement(By.xpath("//a[@id='mainHeader']/div/div/ul[2]/li[2]/div/ul/li[5]/a")).click();
+		
+	}
+
+	public void clickLogin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void username() {
+		// TODO Auto-generated method stub
 		
 	}
 }

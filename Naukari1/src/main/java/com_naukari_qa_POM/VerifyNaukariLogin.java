@@ -1,4 +1,4 @@
-package testnaukari;
+package com_naukari_qa_POM;
 
 import org.testng.annotations.Test;
 
@@ -17,7 +17,7 @@ public class VerifyNaukariLogin {
 	  WebDriver driver = new FirefoxDriver();
 	  driver.get("https://www.naukri.com/");
 	  driver.manage().window().maximize();
-	  NaukariLogin login = new NaukariLogin(driver);
+	  NaukariLogin login = new NaukariLogin();
 	  login.clickLogin();
 	  Thread.sleep(2000);
 	  login.username();

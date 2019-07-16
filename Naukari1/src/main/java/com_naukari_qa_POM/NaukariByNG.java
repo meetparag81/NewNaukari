@@ -1,4 +1,4 @@
-package testnaukari;
+package com_naukari_qa_POM;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
